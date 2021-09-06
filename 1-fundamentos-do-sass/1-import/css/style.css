@@ -1,0 +1,27 @@
+/* line 1, ../../../../../Users/pna_macbook/Documents/Projetos/css-com-sass/scss/_colors.scss */
+p {
+  color: blue;
+  background: gray;
+}
+
+/* line 1, ../../../../../Users/pna_macbook/Documents/Projetos/css-com-sass/scss/_buttons.scss */
+a {
+  display: block;
+  width: 200px;
+  height: 40px;
+}
+
+/* line 6, ../../../../../Users/pna_macbook/Documents/Projetos/css-com-sass/scss/style.scss */
+div {
+  background: #999;
+  height: 200px;
+  width: 100px;
+}
+
+/* line 10, ../../../../../Users/pna_macbook/Documents/Projetos/css-com-sass/scss/style.scss */
+div a {
+  color: pink;
+  background: blue;
+}
+
+/*# sourceMappingURL=style.css.map */
