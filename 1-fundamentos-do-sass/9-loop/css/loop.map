@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "loop.css",
+	"sources": [
+		"../scss/loop.scss"
+	],
+	"sourcesContent": [
+		"@for $i from 1 through 6 {\n    .item {\n        width: $i;\n    }\n}"
+	],
+	"names": [],
+	"mappings": ";AACI,AAAA,KAAK,CAAC;EACF,KAAK,EAFA,CAAC;CAGT;;;AAFD,AAAA,KAAK,CAAC;EACF,KAAK,EAFA,CAAC;CAGT;;;AAFD,AAAA,KAAK,CAAC;EACF,KAAK,EAFA,CAAC;CAGT;;;AAFD,AAAA,KAAK,CAAC;EACF,KAAK,EAFA,CAAC;CAGT;;;AAFD,AAAA,KAAK,CAAC;EACF,KAAK,EAFA,CAAC;CAGT;;;AAFD,AAAA,KAAK,CAAC;EACF,KAAK,EAFA,CAAC;CAGT"
+}
