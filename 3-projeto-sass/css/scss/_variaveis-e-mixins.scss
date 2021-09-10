@@ -10,8 +10,8 @@ $verde: #988c77;
 $fonte-1: 'PT Mono', monospace;
 $fonte-2: 'Aref Ruqaa', serif;
 
-@function em($pixel, $content: 16) {
-    @return $pixel / $context + em;
+@function em($pixel, $contexto: 16) {
+    @return $pixel / $contexto + em;
 }
 
 @mixin tipo-1($size) {
@@ -22,7 +22,7 @@ $fonte-2: 'Aref Ruqaa', serif;
     }
 }
 
-@mixin tipo-2 ($size) {
+@mixin tipo-2($size) {
     font-family: $fonte-2;
     @if $size == 18 {
         font-size: 18 {
